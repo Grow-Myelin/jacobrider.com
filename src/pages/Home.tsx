@@ -3,7 +3,7 @@ import HeroSection from '../components/HeroSection';
 import ProjectSection from '../components/ProjectSection';
 import TravelSection from '../components/TravelSection';
 import ExperienceSection from '../components/ExperienceSection';
-import CookingSection from '../components/CookingSection';
+// import CookingSection from '../components/CookingSection';
 
 // Import JPG images
 import japanImage from '../assets/images/japan.jpg';
@@ -18,8 +18,8 @@ import deltaLogo from '../assets/images/experiences/delta.png';
 import gsuRobinsonLogo from '../assets/images/experiences/GSU_robinson.png';
 import mercedesLogo from '../assets/images/experiences/mercedes.png';
 import gsuLogo from '../assets/images/experiences/GSU.png';
-import pastaImage from '../assets/images/cooking/pasta.jpg';
-import breadImage from '../assets/images/cooking/bread.jpg';
+// import pastaImage from '../assets/images/cooking/pasta.jpg';
+// import breadImage from '../assets/images/cooking/bread.jpg';
 interface Project {
     title: string;
     description: string;
@@ -153,22 +153,22 @@ const experienceData: Experience[] = [
       }
   ];
   
-// Add recipe data
-const recipesData = [
-    {
-        title: 'Homemade Pasta',
-        description: 'Fresh pasta made from scratch with simple ingredients',
-        imageUrl: pastaImage,
-        galleryFolder: 'pasta-gallery'
-    },
-    {
-        title: 'Sourdough Bread',
-        description: 'Artisanal sourdough bread with perfect crust',
-        imageUrl: breadImage,
-        galleryFolder: 'bread-gallery'
-    },
-    // Add more recipes as needed
-];
+// // Add recipe data
+// const recipesData = [
+//     {
+//         title: 'Homemade Pasta',
+//         description: 'Fresh pasta made from scratch with simple ingredients',
+//         imageUrl: pastaImage,
+//         galleryFolder: 'pasta-gallery'
+//     },
+//     {
+//         title: 'Sourdough Bread',
+//         description: 'Artisanal sourdough bread with perfect crust',
+//         imageUrl: breadImage,
+//         galleryFolder: 'bread-gallery'
+//     },
+//     // Add more recipes as needed
+// ];
 const Home = (): JSX.Element => {
     return (
         <>
@@ -176,7 +176,7 @@ const Home = (): JSX.Element => {
             <ExperienceSection experiences={experienceData} />
             <ProjectSection projects={projectsData} />
             <TravelSection travels={travelsData} />
-            <CookingSection recipes={recipesData} />
+            {/* <CookingSection recipes={recipesData} /> */}
         </>
     );
 };
