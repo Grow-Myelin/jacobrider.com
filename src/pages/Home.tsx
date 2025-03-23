@@ -120,7 +120,7 @@ const experienceData: Experience[] = [
       organization: 'Delta Air Lines',
       period: 'Jun 2022 - Present',
       date: 'Jun 2022',
-      description: 'Insert description of delta job here',
+      description: 'Test',
       type: 'work',
       logoUrl: deltaLogo
     },
